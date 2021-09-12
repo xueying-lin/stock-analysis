@@ -12,7 +12,7 @@
       1.  Stock Performance Comparison in 2017 & 2018
       - All of the stocks performed much better in 2017 than 2018
       - As we can see from the analysis table for Stock 2017:
-       ![Stock performance in 2017](/Stock_2017_Performance.PNG)
+       ![Stock performance in 2017](https://raw.githubusercontent.com/xueying-lin/stock-analysis/main/Stock_2017_Performance.PNG)
        
         And the table for Stock 2018:
        ![Stock performance in 2018](https://github.com/xueying-lin/stock-analysis/blob/17c0cbf294c9f497bddde4d89c126d2d45340368/Stock_2018_Performance.PNG)
