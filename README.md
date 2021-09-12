@@ -3,15 +3,15 @@
 ## Overview of Project
       Steve recently is graduated with a finance degree, and he is looking for a good performance stock for his parents to invest.
      
-###Purpose
+### Purpose
       This data analysis is to help Steve to quickly look over the daily volume and yearly return of certain stock for Year 2017 and Year 2018,
       so Steve can select the best performance Stock with his expertise efficiently.
       Once Steve has a larger database, our code should help him to do the same analysis.
 
 ## Results
-      1. Stock Performance Comparison in 2017 & 2018
-      -All of the stocks performed much better in 2017 than 2018
-      -As we can see from the analysis table for Stock 2017:
+      1.  Stock Performance Comparison in 2017 & 2018
+      - All of the stocks performed much better in 2017 than 2018
+      - As we can see from the analysis table for Stock 2017:
        ![Stock performance in 2017](https://github.com/xueying-lin/stock-analysis/blob/17c0cbf294c9f497bddde4d89c126d2d45340368/Stock_2017_Performance.PNG)
        
         And the table for Stock 2018:
@@ -20,7 +20,8 @@
        In 2017, Except for Stock TERP, All other stocks have a positive year return. The Stock DQ, SEDG, ENPH, and FSLG even gained over 100% year return, which is impressive.
        However, in 2018, only stock ENPH and RUN have a positive year return with around 80%, all the other stocks have a negative year return.
        Therefore, the stock performance is much better in 2017 than in 2018
-       -Based on the yearly return in 2017 and 2018, it seems that ENPH is a good and stable stock to invest since it keeps a positive yearly return even when the market situation is bad. But more year data needs to be get to make a suggestion.
+       
+       - Based on the yearly return in 2017 and 2018, it seems that ENPH is a good and stable stock to invest since it keeps a positive yearly return even when the market situation is bad. But more year data needs to be get to make a suggestion.
 
       2. Necessity of Refactoring code
       -Here is the execution time of original code for stock in 2017 and stock in 2018:
@@ -36,7 +37,7 @@
         The execution time is reduced by almost 1s for both worksheets. Therefore, refactoring code is very necessary for future analysis of thousands of stock information.
         By refactoring data, we can improve the work efficiency.
 
-##Summary
+## Summary
     1. What are the advantages or disadvantages of refactoring code?
         The **advantages** could be:
        -**Time Saver**: reduce the code running time
