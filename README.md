@@ -52,10 +52,11 @@ By refactoring data, we can improve the work efficiency.
     - As discussed in the *Results* section, the execution time is reduced by 1s for both worksheets
     - Avoid nested for loop, which is easy to cause bugs
         - Original code:
-``` For i = 0 To 11
-              ticker = tickers(i)
-              totalVolume = 0
-              Sheets(yearValue).Activate
+``` 
+For i = 0 To 11
+        ticker = tickers(i)
+        totalVolume = 0
+        Sheets(yearValue).Activate
     
                For j = rowStart To rowEnd
       
@@ -75,12 +76,12 @@ By refactoring data, we can improve the work efficiency.
        
                   Next j
      
-                  Worksheets("All Stocks Analysis").Activate
-                  Cells(4 + i, 1).Value = ticker
-                  Cells(4 + i, 2).Value = totalVolume
-                  Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
+            Worksheets("All Stocks Analysis").Activate
+            Cells(4 + i, 1).Value = ticker
+            Cells(4 + i, 2).Value = totalVolume
+            Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
        
-             Next i
+Next i
  ```
 - Refactoring code:
  ```
@@ -129,7 +130,7 @@ By refactoring data, we can improve the work efficiency.
                           If Cells(i + 1, 1).Value <> Cells(i - 1, 1).Value Then
                                   tickerIndex = tickerIndex + 1
                          End If
-                 End If    
+              End If    
 ```
             
 From this bug I encountered, it is obvious that reconfactoring code could introduce new bugs. And it takes time to develop a correct code.
